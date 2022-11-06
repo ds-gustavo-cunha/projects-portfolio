@@ -1360,8 +1360,8 @@ ul.contact {
   padding: 0; }
   ul.contact li {
     text-decoration: none;
-    border-top: solid 1px rgba(210, 215, 217, 0.75);
-    margin: 1.5em 0 0 0;
+    /*border-top: solid 1px rgba(210, 215, 217, 0.75);*/
+    margin: 0 0 0 0;
     padding: 1.5em 0 0 3em;
     position: relative; }
     ul.contact li:before {
@@ -2188,8 +2188,10 @@ button,
 /* Footer */
 #footer .copyright {
   color: #9fa3a6;
+  text-align: center;
   font-size: 0.9em; }
   #footer .copyright a {
+    text-align: center;
     color: inherit; }
 
 /* Menu */
